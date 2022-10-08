@@ -29,6 +29,7 @@ a{
 .banner-text{
     text-align: left;
     padding-right: 20px;
+    background: red;
 }
 
 .banner-text .txt{
