@@ -20,7 +20,7 @@ a{
 
 .banner{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     background: #FCFCFF;
@@ -65,7 +65,11 @@ a{
 }
 
 .banner-image{
-    margin-right: 1em;
+    margin-right: 100px;
+}
+
+img{
+    width: 900px;
 }
 
 /* css for login page */
