@@ -65,7 +65,7 @@ a{
 }
 
 .banner-image{
-    margin-right: 5em;
+    margin-right: 3em;
 }
 
 /* css for login page */
@@ -156,7 +156,7 @@ a{
 
 .eye{
     position: absolute;
-    left: 90%;
+    left: 85%;
     top: 35px;
 
 }
@@ -259,8 +259,7 @@ a{
     }
 
     .top-img img{
-        width: 700.62px;
-        
+        width: 700.62px;   
     }
     
     .text{
