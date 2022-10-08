@@ -29,8 +29,7 @@ a{
 .banner-text{
     text-align: left;
     margin-left: 4em;
-    background: red;
-    padding-right: -5px;
+    /* padding-right: -5px; */
 }
 
 .banner-text .txt{
