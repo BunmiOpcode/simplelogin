@@ -28,8 +28,7 @@ a{
 
 .banner-text{
     text-align: left;
-    /* padding: 12px; */
-    margin-left: 5em;
+    padding-right: 12px;
 }
 
 .banner-text .txt{
