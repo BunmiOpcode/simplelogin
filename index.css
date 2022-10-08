@@ -1,0 +1,264 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patua+One&family=Roboto:wght@100;300;400&family=Rubik:wght@300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #FCFCFF;
+    padding-top: 150px;
+}
+
+/* .top-img{
+    margin-top: 231.96px;
+} */
+
+.text{
+    padding-top: 89.78px;
+    padding-bottom: 78px;
+}
+
+.text h1{
+    color: #000000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.text p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 270px;
+    height: 34px;
+    color: #000000;
+}
+
+.section-3 .btn{
+    color: #ffff;
+    height: 41px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    background: #2F3FD3;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.section-3 p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+span a{
+    color:#2F3FD3;
+    text-decoration: none;
+}
+
+/* css for login page */
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 0px;
+    background: #FCFCFF;
+
+}
+
+.wrapper{
+    background: #ffff;
+    border: 1px solid #2F3FD3;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 40px rgba(110, 68, 225, 0.05);
+}
+
+ .login-text h1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.login-text p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.form-control{
+    position: relative;
+    padding-bottom: 30px;  
+}
+
+.form-group .last-child{
+    padding-bottom: 0;    
+}
+
+.form-control label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.form-control input{
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;   
+}
+
+.form-control input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.form-control input:hover{
+    outline-color: #2F3FD3;
+}
+
+.form-group p{
+    text-align: right;
+    padding-bottom: 29px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.eye{
+    position: absolute;
+    left: 90%;
+    top: 35px;
+
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cont p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.line{
+    width: 35%;
+    height: 1px;
+    background: #000000;
+    margin-top: 14px;
+}
+
+.sect .btn{
+    color: #ffff;
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    background: #2F3FD3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.sect p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icons a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .facebook, .icons .google{
+    padding: 8px 11px 8px 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.google img{
+    margin-right: 1px;
+}
+
+.social-text{
+    font-weight: 400;
+    font-size: 10px;
+    /* line-height: 12.1px; */
+    color: #000000;
+    
+}
+
+/* media screen */
+
+@media only screen and (max-width:768px) {
+    .wrapper{
+        border: none;
+        padding: 0;
+        box-shadow: none;
+        background: none;
+}
+
+.login-container{
+    padding-top: 150px;
+}
+    
+    
+}
