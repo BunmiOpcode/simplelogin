@@ -29,12 +29,13 @@ a{
 .banner-text{
     text-align: left;
     padding-right: 20px;
+    padding-left: 12px;
     background: red;
 }
 
 .banner-text .txt{
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .banner-text .btn{
