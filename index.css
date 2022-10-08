@@ -259,7 +259,7 @@ a{
         justify-content: center;
         align-items: center;
         background: #FCFCFF;
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .top-img img{
@@ -337,7 +337,7 @@ a{
 }
 
 .login-container{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 }
