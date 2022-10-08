@@ -30,6 +30,7 @@ a{
     text-align: left;
     margin-left: 4em;
     background: red;
+    padding-left: -5px;
 }
 
 .banner-text .txt{
@@ -65,7 +66,7 @@ a{
 }
 
 .banner-image{
-    margin-right: 90px;
+    margin-right: 100px;
 }
 
 .banner-img{
