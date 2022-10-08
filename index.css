@@ -9,70 +9,63 @@ body{
     font-family: 'Inter', sans-serif;
     font-style: normal;
 }
+a{
+    text-decoration: none;
+}
 
-.container{
+
+.mobile{
+    display: none;
+}
+
+.banner{
     display: flex;
-    flex-direction: column;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background: #FCFCFF;
-    padding-top: 150px;
 }
 
-/* .top-img{
-    margin-top: 231.96px;
-} */
-
-.text{
-    padding-top: 89.78px;
-    padding-bottom: 78px;
+.banner-text{
+    text-align: left;
+    padding: 12px;
+    margin-left: 4em;
 }
 
-.text h1{
-    color: #000000;
-    font-family: Inter;
+.banner-text .txt{
+    margin-bottom: 50px;
     font-size: 20px;
-    font-weight: 500;
-    line-height: 24.2px;
-    letter-spacing: 0em;
-    text-align: center;
 }
 
-.text p{
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
-    width: 270px;
-    height: 34px;
-    color: #000000;
-}
-
-.section-3 .btn{
+.banner-text .btn{
     color: #ffff;
-    height: 41px;
-    width: 300px;
+    padding: 15px 50px 15px 50px;
     border-radius: 8px;
     border: none;
     background: #2F3FD3;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    text-transform: uppercase; 
+    font-weight: 600;  
 }
 
-.section-3 p{
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-    text-align: center;
+.banner-text .sign-in a:hover{
+    border: none;
 }
 
-span a{
-    color:#2F3FD3;
-    text-decoration: none;
+.banner-text .sign-in{
+   font-size: 12px;
+   margin-top: 20px;
+}
+
+.banner-text a:hover{
+    border: 1px solid #2F3FD3;
+    background: transparent;
+    color: #2F3FD3;
+    transition: ease 1s;    
+}
+
+.banner-image{
+    margin-right: 5em;
 }
 
 /* css for login page */
@@ -248,7 +241,91 @@ span a{
 
 /* media screen */
 
+@media only screen and (max-width:1200px) {
+    /* landing page */
+    
+    .banner{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #FCFCFF;
+        padding-top: 150px;
+    }
+
+    .top-img img{
+        width: 700.62px;
+        
+    }
+    
+    .text{
+        padding-top: 89.78px;
+        padding-bottom: 78px;
+    }
+    
+    .text h1{
+        color: #000000;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .text p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 270px;
+        height: 34px;
+        color: #000000;
+    }
+    
+    .section-3 .btn{
+        color: #ffff;
+        height: 41px;
+        width: 300px;
+        border-radius: 8px;
+        border: none;
+        background: #2F3FD3;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .section-3 p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #000000;
+        text-align: center;
+    }
+    
+    span a{
+        color:#2F3FD3;
+        text-decoration: none;
+    }
+
+    
+}
+
 @media only screen and (max-width:768px) {
+    /* landing page */
+
+    .top-img img{
+        width: 500.62px;
+        height: 176.22px;
+    }
+
+ /* login/registration page */
     .wrapper{
         border: none;
         padding: 0;
@@ -259,6 +336,15 @@ span a{
 .login-container{
     padding-top: 150px;
 }
-    
-    
+
+}
+
+@media only screen and (max-width:425px) {
+    /* landing page */
+
+    .top-img img{
+        width: 300.62px;
+        
+    }
+
 }
