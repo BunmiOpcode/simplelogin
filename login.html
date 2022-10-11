@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" href="index.css">
+    <!-- <script src="index.js"></script> -->
     <title>Document</title>
 </head>
 <body>
@@ -21,12 +23,12 @@
                 <div class="form-group">
                     <div class="form-control">
                         <label for="email">Email Address</label><br>
-                        <input type="email" placeholder="Enter your email address">
+                        <input type="email" placeholder="Enter your email address" autocomplete="username">
                     </div>
                     <div class="form-control last-child">
                         <label for="password">Enter Password</label><br>
-                            <input type="password" placeholder="***********">
-                            <i class="material-icons eye">visibility</i>
+                            <input type="password" placeholder="***********" id="password" autocomplete="current-password" >
+                            <i id="visibilityBtn"><span class="material-icons eye" id="icon">visibility</span></i>
                     </div>
                     <p>Forgot Password?</p>
                 </div>
@@ -58,5 +60,24 @@
         
        </div>
     
+<script>
+   
+    const visibilityBtn= document.getElementById("visibilityBtn");
+    visibilityBtn.addEventListener("click", toggleVisibility);
+
+    function toggleVisibility(){
+        const passwordInput= document.getElementById("password");
+        const icon= document.getElementById("icon");
+        if (passwordInput.type === "password"){
+            passwordInput.type = "text"
+            icon.innerText = "visibility_off"
+        } else{
+            passwordInput.type = "password";
+            icon.innerText = "visibility";
+        }
+    }
+
+</script>
+
 </body>
 </html>
